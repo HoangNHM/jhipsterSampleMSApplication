@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitHubOrganization": "HoangNHM",
+    "baseName": "jhipsterSampleMSApplication",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.0",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "e83e1a3e7d652c7ba5e9d3b5320bcaa435cc00f9",
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
